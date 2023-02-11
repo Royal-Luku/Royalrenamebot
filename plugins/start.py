@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [[InlineKeyboardButton("Update Channel", url="https://t.me/Worldofmovies8")],
+                                      [InlineKeyboardButton("Subscribe", url="https://youtube.com/@technicaldwip")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/womsupport'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/Worldofmovies8')],
+                                      [InlineKeyboardButton("Support Us", url='https://t.me/FoxPrimeBots')]
                                       ]))
         return
     if id:
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [[InlineKeyboardButton("Update Channel", url="https://t.me/worldofmovies8")],
+                                              [InlineKeyboardButton("Subscribe", url="https://youtube.com/@Technicaldwip")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/womSupport'),
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/worldofmovies8')],
+                                             [InlineKeyboardButton("Support Us", url='https://t.me/FoxPrimeBots')]
                                           ]))
             except:
                 return
@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                         [[InlineKeyboardButton("Update Channel", url="https://t.me/worldofmovies8")],
+                                          [InlineKeyboardButton("Subscribe", url="https://youtube.com/@Technicaldwip")],
+                                          [InlineKeyboardButton("Support Group", url='https://t.me/WomSupport'),
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/worldofmovies8')],
+                                          [InlineKeyboardButton("Support Us", url='https://t.me/FoxPrimeBots')]
                                           ]))
     
 
