@@ -30,11 +30,11 @@ LAZY_PIC = os.environ.get("LAZY_PIC", "")
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "❤️ Good morning sweetheart ❤️"
+    wish = "⚝ Good Morning ⚝"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 Good afternoon my Love 🤍'
+    wish = '⚝ Good Afternoon ⚝'
 else:
-    wish = '🦋 Good evening baby 🦋'
+    wish = '⚝ Good Evening ⚝'
 
 # -------------------------------
 
@@ -45,8 +45,8 @@ async def start(client, message):
     try:
         id = message.text.split(' ')[1]
     except:
-        txt=f"""Hello {wish} {message.from_user.first_name } \n\n
-	I am file renamer bot, Please sent any telegram**Document Or Video** and enter new filename to rename it"""
+        txt=f"""**Hey, {wish} {message.from_user.first_name }**\n\n
+	**I Am file Renamer Bot, Please sent any telegram Document Or Video and enter new filename to rename it 📁\n\nThis Bot Powered By @Foxprimebots ✅**"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
@@ -107,7 +107,7 @@ async def send_doc(client, message):
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
-            await client.send_message(log_channel,f"🦋 #GangsterBaby_LOGS 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
+            await client.send_message(log_channel,f"New_Users,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Restrict User ( **pm** ) 🔺", callback_data="ceasepower")]]))
             return
 
