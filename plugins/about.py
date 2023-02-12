@@ -12,4 +12,5 @@ async def start(client,message):
 	data = find_one(int(botid))
 	total_rename = data["total_rename"]
 	total_size = data["total_size"]
-	await message.reply_text(f"**Must Join :- <a href='https://t.me/Worldofmovies8'>WOM BW MOVIES</a>\nCreater :- <a href='https://t.me/Royaldwip'>Royal Dwip ⚝</a>\nLanguage :- English \nLibrary :- Pyrogram\nServer :- Heroku\nTotal Renamed File :- {total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} \n\n Thank you 🙏 For Your Support And Love ❤\n\n✅ Please Join <a href='https://t.me/foxprimebots'>**Click**</a>\n Keep Supporting Us ✨**",quote=True)
+	await message.reply_text(f"**Must Join :- <a href='https://t.me/Worldofmovies8'>WOM BW MOVIES</a>\nCreater :- <a href='https://t.me/Royaldwip'>Royal Dwip ⚝</a>\nLanguage :- English \nLibrary :- Pyrogram\nServer :- Heroku\nTotal Renamed File :- {total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} \n\n Thank you 🙏 For Your Support And Love ❤\n\n✅ Please Join :- <a href='https://t.me/foxprimebots'>Click</a>\n\n🥀 Keep Supporting Us ✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬
+**",quote=True)
